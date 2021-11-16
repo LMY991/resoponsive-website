@@ -51,7 +51,7 @@ const scrollBtn = document.querySelector('.arrow-up') ;
 
 
 window.addEventListener('scroll', () => {
-    if(document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
         scrollBtn.style.display = 'block' ;
     }
     else {
